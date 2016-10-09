@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D95C5A371DAAF48D004FB4D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C5A361DAAF48D004FB4D4 /* AppDelegate.swift */; };
+		D95C5A391DAAF48D004FB4D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C5A381DAAF48D004FB4D4 /* ViewController.swift */; };
+		D95C5A3C1DAAF48D004FB4D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95C5A3A1DAAF48D004FB4D4 /* Main.storyboard */; };
+		D95C5A3F1DAAF48D004FB4D4 /* MIKMIDI_iOS_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D95C5A3D1DAAF48D004FB4D4 /* MIKMIDI_iOS_Example.xcdatamodeld */; };
+		D95C5A411DAAF48D004FB4D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95C5A401DAAF48D004FB4D4 /* Assets.xcassets */; };
+		D95C5A441DAAF48D004FB4D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95C5A421DAAF48D004FB4D4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D95C5A331DAAF48D004FB4D4 /* MIKMIDI-iOS-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MIKMIDI-iOS-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95C5A361DAAF48D004FB4D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D95C5A381DAAF48D004FB4D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D95C5A3B1DAAF48D004FB4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D95C5A3E1DAAF48D004FB4D4 /* MIKMIDI_iOS_Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MIKMIDI_iOS_Example.xcdatamodel; sourceTree = "<group>"; };
+		D95C5A401DAAF48D004FB4D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D95C5A431DAAF48D004FB4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D95C5A451DAAF48D004FB4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D95C5A301DAAF48D004FB4D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D95C5A2A1DAAF48D004FB4D4 = {
+			isa = PBXGroup;
+			children = (
+				D95C5A351DAAF48D004FB4D4 /* MIKMIDI-iOS-Example */,
+				D95C5A341DAAF48D004FB4D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D95C5A341DAAF48D004FB4D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D95C5A331DAAF48D004FB4D4 /* MIKMIDI-iOS-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D95C5A351DAAF48D004FB4D4 /* MIKMIDI-iOS-Example */ = {
+			isa = PBXGroup;
+			children = (
+				D95C5A361DAAF48D004FB4D4 /* AppDelegate.swift */,
+				D95C5A381DAAF48D004FB4D4 /* ViewController.swift */,
+				D95C5A3A1DAAF48D004FB4D4 /* Main.storyboard */,
+				D95C5A401DAAF48D004FB4D4 /* Assets.xcassets */,
+				D95C5A421DAAF48D004FB4D4 /* LaunchScreen.storyboard */,
+				D95C5A451DAAF48D004FB4D4 /* Info.plist */,
+				D95C5A3D1DAAF48D004FB4D4 /* MIKMIDI_iOS_Example.xcdatamodeld */,
+			);
+			path = "MIKMIDI-iOS-Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D95C5A321DAAF48D004FB4D4 /* MIKMIDI-iOS-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95C5A481DAAF48D004FB4D4 /* Build configuration list for PBXNativeTarget "MIKMIDI-iOS-Example" */;
+			buildPhases = (
+				D95C5A2F1DAAF48D004FB4D4 /* Sources */,
+				D95C5A301DAAF48D004FB4D4 /* Frameworks */,
+				D95C5A311DAAF48D004FB4D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MIKMIDI-iOS-Example";
+			productName = "MIKMIDI-iOS-Example";
+			productReference = D95C5A331DAAF48D004FB4D4 /* MIKMIDI-iOS-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D95C5A2B1DAAF48D004FB4D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = madebysasha;
+				TargetAttributes = {
+					D95C5A321DAAF48D004FB4D4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KTEXWD8X7C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D95C5A2E1DAAF48D004FB4D4 /* Build configuration list for PBXProject "MIKMIDI-iOS-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D95C5A2A1DAAF48D004FB4D4;
+			productRefGroup = D95C5A341DAAF48D004FB4D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D95C5A321DAAF48D004FB4D4 /* MIKMIDI-iOS-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D95C5A311DAAF48D004FB4D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95C5A441DAAF48D004FB4D4 /* LaunchScreen.storyboard in Resources */,
+				D95C5A411DAAF48D004FB4D4 /* Assets.xcassets in Resources */,
+				D95C5A3C1DAAF48D004FB4D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D95C5A2F1DAAF48D004FB4D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95C5A391DAAF48D004FB4D4 /* ViewController.swift in Sources */,
+				D95C5A371DAAF48D004FB4D4 /* AppDelegate.swift in Sources */,
+				D95C5A3F1DAAF48D004FB4D4 /* MIKMIDI_iOS_Example.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D95C5A3A1DAAF48D004FB4D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D95C5A3B1DAAF48D004FB4D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D95C5A421DAAF48D004FB4D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D95C5A431DAAF48D004FB4D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D95C5A461DAAF48D004FB4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D95C5A471DAAF48D004FB4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D95C5A491DAAF48D004FB4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KTEXWD8X7C;
+				INFOPLIST_FILE = "MIKMIDI-iOS-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madebysasha.MIKMIDI-iOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D95C5A4A1DAAF48D004FB4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KTEXWD8X7C;
+				INFOPLIST_FILE = "MIKMIDI-iOS-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madebysasha.MIKMIDI-iOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D95C5A2E1DAAF48D004FB4D4 /* Build configuration list for PBXProject "MIKMIDI-iOS-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95C5A461DAAF48D004FB4D4 /* Debug */,
+				D95C5A471DAAF48D004FB4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95C5A481DAAF48D004FB4D4 /* Build configuration list for PBXNativeTarget "MIKMIDI-iOS-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95C5A491DAAF48D004FB4D4 /* Debug */,
+				D95C5A4A1DAAF48D004FB4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D95C5A3D1DAAF48D004FB4D4 /* MIKMIDI_iOS_Example.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D95C5A3E1DAAF48D004FB4D4 /* MIKMIDI_iOS_Example.xcdatamodel */,
+			);
+			currentVersion = D95C5A3E1DAAF48D004FB4D4 /* MIKMIDI_iOS_Example.xcdatamodel */;
+			path = MIKMIDI_iOS_Example.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D95C5A2B1DAAF48D004FB4D4 /* Project object */;
+}
